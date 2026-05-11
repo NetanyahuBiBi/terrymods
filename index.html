@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>BIBI'S Roadmap</title>
+    <!-- Favicon -->
+<link
+  rel="icon"
+  type="image/webp"
+  href="data:image/jpeg;base64,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"
+/>
+
+<!-- Discord Embed -->
+<meta property="og:title" content="LongLiveTerry's Roadmap" />
+
+<meta
+  property="og:description"
+  content="Upcoming and completed Blood Trail VR mods."
+/>
+
+<meta
+  property="og:image"
+  content="https://media.discordapp.net/attachments/1501069438454075475/1502590044001665085/image.png?ex=6a00ec47&is=69ff9ac7&hm=a6153cc678ddcf7cdc5cf6ced9cd3d187785f22b884577c07ade0a4c7a26c55f&=&format=webp&quality=lossless"
+/>
+
+<meta
+  property="og:url"
+  content="https://sentinellookup.info/roadmap"
+/>
+
+<meta property="og:type" content="website" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+
+<meta
+  name="twitter:title"
+  content="LongLiveTerry's Roadmap"
+/>
+
+<meta
+  name="twitter:description"
+  content="Upcoming and completed Blood Trail VR mods."
+/>
+
+<meta
+  name="twitter:image"
+  content="https://media.discordapp.net/attachments/1501069438454075475/1502590044001665085/image.png?ex=6a00ec47&is=69ff9ac7&hm=a6153cc678ddcf7cdc5cf6ced9cd3d187785f22b884577c07ade0a4c7a26c55f&=&format=webp&quality=lossless"
+/>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050816;
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+    padding:40px;
+}
+
+h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    opacity:.7;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    overflow:hidden;
+    transition:.25s;
+    backdrop-filter:blur(10px);
+
+    text-decoration:none;
+    color:white;
+    display:block;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    border-color:rgba(255,255,255,.2);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    background:#111;
+}
+
+.content{
+    padding:20px;
+}
+
+.status{
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:14px;
+}
+
+.done{
+    background:#1f8f4e;
+}
+
+.inprogress{
+    background:#dc2626;
+}
+
+.planned{
+    background:#2563eb;
+}
+
+.title{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.desc{
+    opacity:.75;
+    line-height:1.5;
+}
+
+.empty-card{
+    border:2px dashed rgba(255,255,255,.15);
+    background:transparent;
+}
+
+.empty-card .content{
+    min-height:250px;
+}
+
+.empty-text{
+    opacity:.3;
+    font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Blood Trail VR Roadmap</h1>
+
+<div class="subtitle">
+Upcoming and completed BIBI mods.
+</div>
+
+<div class="grid">
+
+<!-- DONE MODS -->
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/128"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/128/128-1778134462-1175878242.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Tactical Glock (ACRO + Drum + Laser)
+</div>
+
+<div class="desc">
+Fully customized tactical glock with attachments and working laser system.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/122"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/122/122-1777857213-1757897338.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Glock Red Dot
+</div>
+
+<div class="desc">
+Functional red dot sight attachment.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/124"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/124/124-1778097486-558793310.jpg">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Full Auto Shotgun
+</div>
+
+<div class="desc">
+500 Round fully automatic shotgun.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/125"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/125/125-1778097735-1481535451.jpg">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Shotgun Big Capacity
+</div>
+
+<div class="desc">
+500 round shotgun capacity.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/127"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/127/127-1778118317-823582528.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Full Auto Beretta
+</div>
+
+<div class="desc">
+Fully automatic Beretta conversion.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/129"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/129/129-1778130833-1965927360.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+500 Round Full Auto Glock BP
+</div>
+
+<div class="desc">
+Blueprint mod for high-capacity fully automatic glock.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/130"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/130/130-1778223202-1091015759.jpg">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Shotgun Slug BP
+</div>
+
+<div class="desc">
+Transforms shotgun into a War Crime.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/131"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/131/131-1778233801-1050636970.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Pipe Bomb Dildo
+</div>
+
+<div class="desc">
+Turns the pipe bomb into a dildo.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://www.nexusmods.com/bloodtrail/mods/132"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/132/132-1778309155-1107626477.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Glock ACRO LEO Edition
+</div>
+
+<div class="desc">
+Tactical law enforcement style glock build.
+</div>
+
+</div>
+</a>
+
+<a class="card"
+href="https://cdn.discordapp.com/attachments/1501069438454075475/1502614841670635530/Trump.zip?ex=6a01ac1f&is=6a005a9f&hm=fdf2421f2d4172e94a1fc8726a11c5e4a67374b6d6ee97adb926f5cc4ef993d7&"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/133/133-1778310369-1608015992.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+NPC Mod Legacy 2
+</div>
+
+<div class="desc">
+Turns Legacy Branch 2 NPC'S into Trump.
+    Click to download Nexus mods decided to be cucks.
+</div>
+
+</div>
+</a>
+
+<!-- PLANNED -->
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502585637407162378/NVIDIA_Overlay_sKoZsUUn7I.png?ex=6a0190ec&is=6a003f6c&hm=0516e7da4bb87bc2c1f74063d1744751aefeadb6a21a124e15a668de277efcfb&=&format=webp&quality=lossless&width=550&height=324">
+
+<div class="content">
+
+<div class="status inprogress">
+IN PROGRESS
+</div>
+
+<div class="title">
+Beretta Mod
+</div>
+
+<div class="desc">
+Im thinking a sight addition or some attachments in general
+</div>
+
+</div>
+</a>
+
+<a class="card empty-card"
+href="https://www.nexusmods.com/bloodtrail/mods/134"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/134/134-1778324747-458457286.jpg">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+R.I.P. Rounds
+</div>
+
+<div class="desc">
+Blueprint mod that turns the glock into a more powerful weapon resembling the effects of R.I.P. Rounds that were developed by G2 Research
+</div>
+
+</div>
+</a>
+
+<a class="card empty-card"
+href="https://www.nexusmods.com/bloodtrail/mods/135"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/135/135-1778325066-245036416.jpg">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Atom Bomb
+</div>
+
+<div class="desc">
+Turns the pipe bomb into a fucking beast.
+</div>
+
+</div>
+</a>
+
+<a class="card empty-card"
+href="https://www.nexusmods.com/bloodtrail/mods/137"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/137/137-1778373364-1928843976.png">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Glock LEO AMOGUS DILDO
+</div>
+
+<div class="desc">
+Adds a amongus dildo suppressor to the glock leo mod i made
+</div>
+
+</div>
+</a>
+
+<a class="card empty-card"
+href="https://www.nexusmods.com/bloodtrail/mods/138"
+target="_blank">
+
+<img src="https://staticdelivery.nexusmods.com/mods/6094/images/thumbnails/138/138-1778391176-350793143.jpg">
+
+<div class="content">
+
+<div class="status done">
+DONE
+</div>
+
+<div class="title">
+Low Damage
+</div>
+
+<div class="desc">
+Makes everything low damage and increases realism all around.
+</div>
+
+</div>
+</a>
+
+<a class="card empty-card"
+href="https://file.garden/agE3GkmcYA8xD0gx/Garbages%20Glock%20LEO.zip"
+target="_blank">
+
+<img src="https://file.garden/agE3GkmcYA8xD0gx/leoe.png">
+
+<div class="content">
+<div class="status done">DONE</div>
+<div class="title">Garbage_0's Glock</div>
+<div class="desc">A glock commissioned for free by garbage_0</div>
+</div>
+</a>
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502586149909168328/download_5.png?ex=6a003fe6&is=69feee66&hm=c4469b0734d373f04350564a31bc9eb8bd7bd94f24fbb2abaa7ccd441d1d9f00&=&format=webp&quality=lossless">
+
+<div class="content">
+<div class="status planned">PLANNED</div>
+<div class="title">TBA</div>
+<div class="desc">TBA</div>
+</div>
+</a>
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502586149909168328/download_5.png?ex=6a003fe6&is=69feee66&hm=c4469b0734d373f04350564a31bc9eb8bd7bd94f24fbb2abaa7ccd441d1d9f00&=&format=webp&quality=lossless">
+
+<div class="content">
+<div class="status planned">PLANNED</div>
+<div class="title">TBA</div>
+<div class="desc">TBA</div>
+</div>
+</a>
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502586149909168328/download_5.png?ex=6a003fe6&is=69feee66&hm=c4469b0734d373f04350564a31bc9eb8bd7bd94f24fbb2abaa7ccd441d1d9f00&=&format=webp&quality=lossless">
+
+<div class="content">
+<div class="status planned">PLANNED</div>
+<div class="title">TBA</div>
+<div class="desc">TBA</div>
+</div>
+</a>
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502586149909168328/download_5.png?ex=6a003fe6&is=69feee66&hm=c4469b0734d373f04350564a31bc9eb8bd7bd94f24fbb2abaa7ccd441d1d9f00&=&format=webp&quality=lossless">
+
+<div class="content">
+<div class="status planned">PLANNED</div>
+<div class="title">TBA</div>
+<div class="desc">TBA</div>
+</div>
+</a>
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502586149909168328/download_5.png?ex=6a003fe6&is=69feee66&hm=c4469b0734d373f04350564a31bc9eb8bd7bd94f24fbb2abaa7ccd441d1d9f00&=&format=webp&quality=lossless">
+
+<div class="content">
+<div class="status planned">PLANNED</div>
+<div class="title">TBA</div>
+<div class="desc">TBA</div>
+</div>
+</a>
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502586149909168328/download_5.png?ex=6a003fe6&is=69feee66&hm=c4469b0734d373f04350564a31bc9eb8bd7bd94f24fbb2abaa7ccd441d1d9f00&=&format=webp&quality=lossless">
+
+<div class="content">
+<div class="status planned">PLANNED</div>
+<div class="title">TBA</div>
+<div class="desc">TBA</div>
+</div>
+</a>
+
+<a class="card empty-card"
+href="LINK HERE"
+target="_blank">
+
+<img src="https://media.discordapp.net/attachments/1501069438454075475/1502586149909168328/download_5.png?ex=6a003fe6&is=69feee66&hm=c4469b0734d373f04350564a31bc9eb8bd7bd94f24fbb2abaa7ccd441d1d9f00&=&format=webp&quality=lossless">
+
+<div class="content">
+<div class="status planned">PLANNED</div>
+<div class="title">TBA</div>
+<div class="desc">TBA</div>
+</div>
+</a>
+</div>
+
+</body>
+</html>
