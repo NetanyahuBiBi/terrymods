@@ -1,4 +1,4 @@
-<pre>
+&lt;pre&gt;
 Use freely.
 
 
@@ -6,8 +6,8 @@ Some info to help you use it easier
 
 
 
-<div class="content">
-<div class="status done">DONE</div>
+&lt;div class="content"&gt;
+&lt;div class="status done"&gt;DONE&lt;/div&gt;
 
 
 Shows a Green Done
@@ -16,17 +16,17 @@ Shows a Green Done
 
 
 
-<div class="content">
-<div class="status inprogress">IN PROGRESS</div>
+&lt;div class="content"&gt;
+&lt;div class="status inprogress"&gt;IN PROGRESS&lt;/div&gt;
 
 
 Shows a red IN PROGRESS 
-You can customize this IN PROGRESS</div> and make it say whatever you would like
+You can customize this IN PROGRESS&lt;/div&gt; and make it say whatever you would like
 
 
 
-<div class="content">
-<div class="status planned">PLANNED</div>
+&lt;div class="content"&gt;
+&lt;div class="status planned"&gt;PLANNED&lt;/div&gt;
 
 
 Shows a blue PLANNED
@@ -53,54 +53,54 @@ You can change all these here
 
 
   Format is 
-<a class="card"
+&lt;a class="card"
 href="Link To use when clicking on the card"
-target="_blank">
+target="_blank"&gt;
 
-<img src="Image to show on the card">
+&lt;img src="Image to show on the card"&gt;
 
-<div class="content">
+&lt;div class="content"&gt;
 
-<div class="status done">
+&lt;div class="status done"&gt;
 DONE
-</div>
+&lt;/div&gt;
 
-<div class="title">
+&lt;div class="title"&gt;
 Title
-</div>
+&lt;/div&gt;
 
-<div class="desc">
+&lt;div class="desc"&gt;
 description
-</div>
+&lt;/div&gt;
 
-</div>
-</a>
-
-
+&lt;/div&gt;
+&lt;/a&gt;
 
 
 
 
 
-and for anything below <!-- PLANNED -->
+
+
+and for anything below &lt;!-- PLANNED --&gt;
 
 
 
 use this format
 
 
-<a class="card empty-card"
+&lt;a class="card empty-card"
 href="Link to use when clicking on card"
-target="_blank">
+target="_blank"&gt;
 
-<img src="Image to display">
+&lt;img src="Image to display"&gt;
 
-<div class="content">
-<div class="status done">DONE</div>
-<div class="title">Title</div>
-<div class="desc">Description</div>
-</div>
-</a>
+&lt;div class="content"&gt;
+&lt;div class="status done"&gt;DONE&lt;/div&gt;
+&lt;div class="title"&gt;Title&lt;/div&gt;
+&lt;div class="desc"&gt;Description&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
 
 
 
@@ -111,43 +111,43 @@ target="_blank">
 
 
 An example of what it looks like to have 2 then end it 
-<a class="card empty-card"
+&lt;a class="card empty-card"
 href="LINK HERE"
-target="_blank">
+target="_blank"&gt;
 
-<img src="https://file.garden/agE3GkmcYA8xD0gx/download_5.png">
+&lt;img src="https://file.garden/agE3GkmcYA8xD0gx/download_5.png"&gt;
 
-<div class="content">
-<div class="status planned">PLANNED</div>
-<div class="title">TBA</div>
-<div class="desc">TBA</div>
-</div>
-</a>
+&lt;div class="content"&gt;
+&lt;div class="status planned"&gt;PLANNED&lt;/div&gt;
+&lt;div class="title"&gt;TBA&lt;/div&gt;
+&lt;div class="desc"&gt;TBA&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
 
-<a class="card empty-card"
+&lt;a class="card empty-card"
 href="LINK HERE"
-target="_blank">
+target="_blank"&gt;
 
-<img src="https://file.garden/agE3GkmcYA8xD0gx/download_5.png">
+&lt;img src="https://file.garden/agE3GkmcYA8xD0gx/download_5.png"&gt;
 
-<div class="content">
-<div class="status planned">PLANNED</div>
-<div class="title">TBA</div>
-<div class="desc">TBA</div>
-</div>
-</a>
-</div>
+&lt;div class="content"&gt;
+&lt;div class="status planned"&gt;PLANNED&lt;/div&gt;
+&lt;div class="title"&gt;TBA&lt;/div&gt;
+&lt;div class="desc"&gt;TBA&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;
 
-</body>
-</html>
+&lt;/body&gt;
+&lt;/html&gt;
 
 
 
-this </div>
-</a>
-</div>
-must go there if you are ending it off so you need the extra </div>
+this &lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+must go there if you are ending it off so you need the extra &lt;/div&gt;
 
 
 If you need any more help with this message me on discord or hmu in the blood trail server enjoy using this and you may use it for whatever you like. https://discord.gg/qq5K28QSwx
-</pre>
+&lt;/pre&gt;
